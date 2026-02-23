@@ -1,0 +1,58 @@
+body {
+    width: 350px; /* 横幅をしっかり固定してバグを防ぎます */
+    margin: 0;
+    padding: 10px;
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+button {
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+
+button:hover {
+    background: #f0f0f0;
+}
+
+#memo {
+    width: 100%;
+    height: 300px; /* デフォルトの高さを指定 */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    box-sizing: border-box; /* 枠線を含めたサイズ計算 */
+    outline: none;
+    resize: none; /* バグ防止のため手動リサイズは一旦オフ */
+}
+
+#info-bar {
+    display: flex;
+    justify-content: space-between;
+    background: #eeeeee;
+    margin-top: 10px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 11px;
+    color: #444;
+}
+
+.info-item span {
+    font-weight: bold;
+    color: #000;
+}

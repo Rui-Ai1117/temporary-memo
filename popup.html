@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="button-container">
+        <button id="copy-btn" title="内容をコピー">📋 コピー</button>
+        <button id="popout-btn" title="別ウィンドウで開く">⧉ 拡大</button>
+    </div>
+    
+    <textarea id="memo" placeholder="ここにメモを入力..."></textarea>
+    
+    <div id="info-bar">
+        <div class="info-item">総文字数: <span id="total-chars">0</span></div>
+        <div class="info-item">（空白除）: <span id="pure-chars">0</span></div>
+        <div class="info-item">行数: <span id="line-count">0</span></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

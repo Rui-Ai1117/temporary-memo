@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "マイ・クイックメモ",
+  "version": "2.1",
+  "description": "文字数・行数カウント機能付きのシンプルな一時メモ帳です。",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon16.png"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
